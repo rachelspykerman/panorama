@@ -122,8 +122,8 @@ def stitch(images, ratio=0.75,reprojThresh=4.0,showMatches=False):
 
 
 
-imageA = cv2.imread("images/panorama1.jpg")
-imageB = cv2.imread("images/panorama2.jpg")
+imageA = cv2.imread("panorama1.jpg")
+imageB = cv2.imread("panorama2.jpg")
 
 (result,vis) = stitch([imageA,imageB], showMatches=True)
 # show the images
